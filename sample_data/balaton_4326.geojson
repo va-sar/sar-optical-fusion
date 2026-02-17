@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "balaton_4326",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 17.179838289330782, 47.109611714550148 ], [ 18.277550192777394, 47.122886481074779 ], [ 18.281096919444426, 46.683070026044952 ], [ 17.192251832665391, 46.669685917925072 ], [ 17.179838289330782, 47.109611714550148 ] ] ] ] } }
+]
+}

@@ -1,0 +1,16 @@
+paths:
+  optical_image: "path/to/your/sentinel2_rgb.tif"
+  sar_image: "path/to/your/sentinel1_vv.tif"
+  output_dir: "runs"
+
+processing:
+  optical_sharpen:
+    sigma: 1.0
+    strength: 1.1
+  sar_percentiles: [2, 98]
+  roma_num_matches: 5000
+  ransac:
+    reproj_threshold: 0.4
+  visualization:
+    max_inliers: 20
+    overlay_alpha: 0.3

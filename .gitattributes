@@ -1,0 +1,4 @@
+*.geojson text eol=lf
+*.tif binary
+*.png binary
+*.md text
