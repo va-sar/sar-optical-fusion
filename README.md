@@ -46,6 +46,13 @@ Data can be downloaded using Sentinel Downloader at https://github.com/va-sar/se
 - **Resolution**: Native
 - **Format**: Linear power (not dB!) 
 
+**Note on SAR Orientation**
+This tool fuses SAR and optical images as-is. Sentinel-1 data may appear mirrored or rotated relative to optical imagery due to the side-looking radar geometry and orbit direction.
+For intuitive visual alignment and to stay within RoMa’s rotation tolerance (~45°):
+- Use orthorectified, north-up SAR products
+- Apply geocoding + orientation correction before fusion 
+>The included examples use raw Sentinel-1 GRD to demonstrate real-world challenges — including orientation mismatch.
+
 ### 🌍 **Sample Data Included**
 
 To test the pipeline immediately, use the cropped **Budapest flood data** provided in this repo:
